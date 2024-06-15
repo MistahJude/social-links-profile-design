@@ -22,12 +22,12 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot](./screenshot.png)
+![Screenshot](screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution link](https://www.frontendmentor.io/learning-paths/getting-started-on-frontend-mentor-XJhRWRREZd/steps/666c0b41983369c5332a9e02/challenge/refactor)
+- Live Site URL: [Live link](https://social-links-profile-design-nu.vercel.app/)
 
 ## My process
 

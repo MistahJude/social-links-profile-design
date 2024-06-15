@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 
 /* Basic Resets */
 *,
@@ -22,95 +22,97 @@ img {
 
 ol[role="list"],
 ul[role="list"] {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 /* General Styles */
 
 body {
-    font-family: "Inter", sans-serif;
-    min-height: 100vh;
-    background-color: hsl(0, 0%, 8%);
+  font-family: "Inter", sans-serif;
+  min-height: 100vh;
+  background-color: hsl(0, 0%, 8%);
 }
 
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 
 .profile-card {
-    background-color: hsl(0, 0%, 12%);
-    color: hsl(0, 0%, 100%);
-    height: 620px;
-    width: 350px;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  background-color: hsl(0, 0%, 12%);
+  color: hsl(0, 0%, 100%);
+  height: 630px;
+  width: 385px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .header-container {
-    margin: 25px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  margin: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .profile-pic {
-    height: 100px;
-    width: 100px;
-    background-image: url(/images/avatar-jessica.jpeg);
-    background-size: contain;
-    background-position: center;
-    border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  background-image: url(/images/avatar.JPG);
+  background-size: contain;
+  background-position: center;
+  border-radius: 50%;
 }
 
 .username {
-    margin-top: 25px;
-    font-size: 30px;
-    font-weight: 500;
+  margin-top: 22px;
+  font-size: 30px;
+  font-weight: 500;
 }
 
 .location {
-    font-size: 17px;
-    font-weight: 600;
-    margin-top: 10px;
-    color: hsl(75, 94%, 57%);
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 10px;
+  color: hsl(75, 94%, 57%);
 }
 
 .skills {
-    margin-top: 25px;
-    font-size: 14px;
-    text-align: center;
+  margin-top: 25px;
+  font-size: 14px;
+  text-align: center;
 }
 
 .links-container .link-list {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-inline: 25px;
-    gap: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-inline: 25px;
+  gap: 15px;
 }
 
-.link-list__single {
-    height: 50px;
-    width: 300px;
-    text-align: center;
-    font-size: 17px;
-    background-color: hsl(0, 0%, 20%);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: 600;
-    border-radius: 10px;
+.link-list__single a {
+  height: 50px;
+  width: 320px;
+  text-align: center;
+  font-size: 17px;
+  background-color: hsl(0, 0%, 20%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  border-radius: 10px;
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
 }
 
-.link-list__single:hover,
-.link-list__single:focus-visible {
-    background-color: hsl(75, 94%, 57%);
-    color: hsl(0, 0%, 12%);
-    cursor: pointer;
-    transition: all 500ms;
+.link-list__single a:hover,
+.link-list__single a:focus-visible {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 12%);
+  cursor: pointer;
+  transition: all 500ms;
 }
